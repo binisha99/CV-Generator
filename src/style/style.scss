@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    height: 100vh;
+}
+.wrapper{
+    height: 100%;
+
+form{
+      // width:500px;
+    width: calc(100% - 3em);
+    height:inherit;
+    margin-top:30px;
+    margin-inline:auto;
+
+.personal-info{
+    // border:2px solid black;
+    background-color: #dbe5ec;
+    margin-bottom: 20px;
+.info{
+color:#011f4b;
+    font-size:calc(100% + 18px);
+    display: flex;
+    justify-content: space-between;
+    margin:12px;
+}
+.input_box{
+display: flex;
+    flex-direction: column;
+    padding:12px;
+
+    label{
+    font-weight: 700;
+        font-size: 18px;
+        color: #36454f;
+    }
+    input{
+    
+    margin-top: 5px;
+        height: 40px;
+        border: none;
+        color:black;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+}
+.personal-experience{
+    background-color: #b2e6c6;
+    margin-bottom: 20px;
+.experienece{
+  
+    color:#011f4b;
+    font-size:calc(100% + 18px);
+    display: flex;
+    justify-content: space-between;
+    margin:12px;
+}
+   
+.input_box{
+    
+    display: flex;
+        flex-direction: column;
+        padding:12px;
+    
+        label{
+        font-weight: 700;
+            font-size: 18px;
+            color: #294684;
+            &:nth-child(2){
+                position: relative;
+left: 50%;
+            }
+        }
+        
+        input{
+        margin-top: 5px;
+            height: 40px;
+            border: none;
+            color:black;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .dates{
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+           justify-content: space-between;
+        .from-date,.to-date{
+            width: 50%;
+        }
+    }
+    .add-more{
+margin-block:20px;
+    
+    button{
+        border: none;
+        background-color:  #49657b ;
+        color:white;
+        font-weight: 700;
+        font-family: inherit;
+        margin: auto;
+        width: 145px;
+        height: 40px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+}
+}
+
+.personal-education{
+    background-color: #e5e6eb ;
+    margin-bottom: 20px;
+    .education{
+       
+        color:#011f4b;
+    font-size:calc(100% + 18px);
+    display: flex;
+    justify-content: space-between;
+    margin:12px;
+    }
+    .input_box{
+        display: flex;
+            flex-direction: column;
+            padding:12px;
+        
+            label{
+           
+            font-weight: 700;
+                font-size: 18px;
+                color: #36454f;
+            }
+            input{
+    
+                margin-top: 5px;
+                    height: 40px;
+                    border: none;
+                    color:black;
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                select{
+                    margin-top: 10px;
+                    height: 35px;
+                    border: none;
+                }
+                .add-more{
+                    margin-block:20px;
+                        
+                        button{
+                            border: none;
+                            background-color:  #49657b ;
+                            color:white;
+                            font-weight: 700;
+                            font-family: inherit;
+                            margin: auto;
+                            width: 145px;
+                            height: 40px;
+                            font-size: 18px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+
+            .profile-pic{
+                display:flex;
+                flex-direction: column;
+                label{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1e1f26; 
+    margin-block:10px;
+                }
+            }
+            .submit{
+                margin: 20px;
+                width: 150px;
+                height: 40px;
+                color: white;
+                background-color: #4b86b4;
+                border: none;
+                font-size: 21px;
+                letter-spacing: 2px;
+                font-family: inherit;
+            }         
+}
+
+}
+

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+}
+.wrapper form {
+  width: calc(100% - 3em);
+  height: inherit;
+  margin-top: 30px;
+  margin-inline: auto;
+}
+.wrapper form .personal-info {
+  background-color: #dbe5ec;
+  margin-bottom: 20px;
+}
+.wrapper form .personal-info .info {
+  color: #011f4b;
+  font-size: calc(100% + 18px);
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+.wrapper form .personal-info .input_box {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.wrapper form .personal-info .input_box label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #36454f;
+}
+.wrapper form .personal-info .input_box input {
+  margin-top: 5px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.wrapper form .personal-experience {
+  background-color: #b2e6c6;
+  margin-bottom: 20px;
+}
+.wrapper form .personal-experience .experienece {
+  color: #011f4b;
+  font-size: calc(100% + 18px);
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+.wrapper form .personal-experience .input_box {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.wrapper form .personal-experience .input_box label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #294684;
+}
+.wrapper form .personal-experience .input_box label:nth-child(2) {
+  position: relative;
+  left: 50%;
+}
+.wrapper form .personal-experience .input_box input {
+  margin-top: 5px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.wrapper form .personal-experience .input_box .dates {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.wrapper form .personal-experience .input_box .dates .from-date, .wrapper form .personal-experience .input_box .dates .to-date {
+  width: 50%;
+}
+.wrapper form .personal-experience .input_box .add-more {
+  margin-block: 20px;
+}
+.wrapper form .personal-experience .input_box .add-more button {
+  border: none;
+  background-color: #49657b;
+  color: white;
+  font-weight: 700;
+  font-family: inherit;
+  margin: auto;
+  width: 145px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.wrapper form .personal-education {
+  background-color: #e5e6eb;
+  margin-bottom: 20px;
+}
+.wrapper form .personal-education .education {
+  color: #011f4b;
+  font-size: calc(100% + 18px);
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+.wrapper form .personal-education .input_box {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.wrapper form .personal-education .input_box label {
+  font-weight: 700;
+  font-size: 18px;
+  color: #36454f;
+}
+.wrapper form .personal-education .input_box input {
+  margin-top: 5px;
+  height: 40px;
+  border: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.wrapper form .personal-education .input_box select {
+  margin-top: 10px;
+  height: 35px;
+  border: none;
+}
+.wrapper form .personal-education .input_box .add-more {
+  margin-block: 20px;
+}
+.wrapper form .personal-education .input_box .add-more button {
+  border: none;
+  background-color: #49657b;
+  color: white;
+  font-weight: 700;
+  font-family: inherit;
+  margin: auto;
+  width: 145px;
+  height: 40px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.wrapper form .profile-pic {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper form .profile-pic label {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e1f26;
+  margin-block: 10px;
+}
+.wrapper form .submit {
+  margin: 20px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #4b86b4;
+  border: none;
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-family: inherit;
+}/*# sourceMappingURL=style.css.map */
